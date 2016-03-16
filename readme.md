@@ -79,10 +79,7 @@ _译注_：这一部分的官方文档都有一些过时。翻译组在翻译&�
 
 'RCTRootView.h' file not found
 
-```
-在專案下新增 Libraries 加入 node_modules/ 搜尋所有.xcodeproj 加入
-build phase -> Link binary with Libraries -> 加入所有libReact.b, libRCTXXX.a
-```
+如果是使用Pods確定 Targets -> Build Phase -> Link binary with Libraries 裡面是否有新增 `Pods_embedded_react_native.framework` 
 
 * 出現IOS9安全性連線問題
 
